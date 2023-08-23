@@ -1,0 +1,13 @@
+aside.logo {
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(186,186,186,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+aside.logo img {
+    padding: 0px 15px;
+    width: 100%;
+}
+

@@ -1,4 +1,4 @@
-# audfran-admin
+# Audfran-Admin
 
 A project in which I helped a friend do an academic project for a real company, with the aim of managing the company's internal sectors. The well-known management system.
 

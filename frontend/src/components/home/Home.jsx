@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "../template/Main";
 
-export default props =>
+export default Login =>
     <Main icon="home" title="Dashboard">
         <div className="display-4">Bem Vindo!</div>
         <hr />

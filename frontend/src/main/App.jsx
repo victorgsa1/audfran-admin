@@ -3,20 +3,42 @@ import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
+import { AuthProvider } from '../components/login/Auth'
+// import { useAuth, AuthLogin } from "../components/login/Auth";
 
 import Routes from './Routes'
 
 import Logo from '../components/template/Logo'
 import Nav from '../components/template/Nav'
-import Home from '../components/home/Home'
 import Footer from '../components/template/Footer'
 
-export default props=>
-    <BrowserRouter> 
-        <div className="app">
-            <Logo />
-            <Nav />
-            <Routes />
-            <Footer />
-        </div>
+// export default () =>
+//   <AuthProvider>
+//     <BrowserRouter>
+//       <div className="app">
+//         <Logo />
+//         <Nav />
+//         <Routes />
+//         <Footer />
+//       </div>
+//     </BrowserRouter>
+//   </AuthProvider>
+
+
+const App = () => {
+  return(
+    <AuthProvider>
+    <BrowserRouter>
+      <div className="app">
+        <Logo />
+        <Nav />
+        <Routes />
+        <Footer />
+      </div>
     </BrowserRouter>
+  </AuthProvider>
+
+  )
+}
+
+export default App

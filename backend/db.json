@@ -1,12 +1,100 @@
 {
   "pacientes": [
     {
-      "name": "asdasdasda",
-      "email": "",
-      "cpf": "12312312312",
-      "telefone": "12312312312",
-      "nascimento": "1231-03-12",
-      "endereco": "asdasdasdasdas",
-      "lado": "Unilateral",
-      "cadastro": "04/09/2023",
+      "name": "Andre",
+      "cpf": "48163046813",
+      "telefone": "19999999999",
+      "nascimento": "2009-02-04",
+      "endereco": "Av. Brasil",
+      "lado": "Bilateral",
+      "cadastro": "19/10/2023",
+      "id": 3
+    }
+  ],
+  "produtos": [
+    {
+      "name": "Pilha (312)",
+      "quantidade": 85,
+      "preco": "15",
+      "id": 1
+    },
+    {
+      "name": "Silica Gel",
+      "quantidade": 145,
+      "preco": "12",
+      "id": 2
+    }
+  ],
+  "fornecedor": [
+    {
+      "name": "luis",
+      "telefone": "19191991919",
+      "produto": "",
+      "endereco": "sf",
+      "id": 1
+    },
+    {
+      "name": "cleito rasta",
+      "telefone": "12474523523",
+      "produto": "",
+      "endereco": "rua perebo",
+      "id": 2
+    },
+    {
+      "name": "Matheus",
+      "telefone": "19989238928",
+      "produto": "",
+      "endereco": "Rua do Milho",
+      "id": 3
+    }
+  ],
+  "vendas": [
+    {
+      "pacientes": "Andre",
+      "produto": "Pilha (312)",
+      "preco": "30",
+      "quantidade": "15",
+      "total": 450,
+      "data": "2023-10-24",
+      "id": 1
+    },
+    {
+      "pacientes": "Andre",
+      "produto": "Silica Gel",
+      "preco": "20",
+      "quantidade": "5",
+      "total": 100,
+      "data": "2023-10-24",
+      "id": 2
+    }
+  ],
+  "compras": [
+    {
+      "fornecedor": "luis",
+      "produto": "Pilha (312)",
+      "preco": "15",
+      "quantidade": "100",
+      "total": 1500,
+      "data": "2023-10-24",
+      "id": 1
+    },
+    {
+      "fornecedor": "Matheus",
+      "produto": "Silica Gel",
+      "preco": "12",
+      "quantidade": "100",
+      "total": 1200,
+      "data": "2023-10-24",
+      "id": 2
+    },
+    {
+      "fornecedor": "luis",
+      "produto": "Silica Gel",
+      "preco": "12",
+      "quantidade": "50",
+      "total": 600,
+      "data": "2023-10-26",
+      "id": 3
+    }
+  ]
 }
